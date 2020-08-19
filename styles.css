@@ -1,0 +1,61 @@
+#container{
+	background-color: #393939;
+	display: flex;
+	flex-direction: column;
+
+
+
+}
+
+.button{
+	width:150px;
+	height: 80px;
+	background-color: #1F9995;
+	font-size: 20px;
+	color: white;
+}
+
+#screenContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#screen{
+	width: 600px;
+	height: 150px;
+	background-color: #DEDBDB;
+	font-size: 48px;
+	text-align: end;
+}
+
+#eraseButtons{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 375px;
+}
+
+#eraseButtonRow{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#topButtonRow{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+#midButtonRow{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+#endButtonRow{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
